@@ -1,0 +1,103 @@
+/* ==========================
+   DARK THEME
+========================== */
+
+.dark{
+    background:#0f172a;
+    color:white;
+    min-height:100vh;
+}
+
+.dark .sidebar{
+    background:#1e293b;
+}
+
+.dark .card{
+    background:#1e293b;
+}
+
+.dark input,
+.dark textarea,
+.dark select{
+    background:#334155;
+    color:white;
+}
+
+.dark .menu button{
+    background:#334155;
+    color:white;
+}
+
+.dark .menu button:hover{
+    background:#8b5cf6;
+}
+
+.dark .toggle-btn{
+    background:#334155;
+    color:white;
+}
+
+
+/* ==========================
+   LIGHT THEME
+========================== */
+
+.light{
+    background:#f8fafc;
+    color:#0f172a;
+    min-height:100vh;
+}
+
+.light .sidebar{
+    background:white;
+    border-right:1px solid #e2e8f0;
+}
+
+.light .card{
+    background:white;
+    border:1px solid #e2e8f0;
+}
+
+.light input,
+.light textarea,
+.light select{
+    background:#f1f5f9;
+    color:#0f172a;
+}
+
+.light .menu button{
+    background:#f1f5f9;
+    color:#0f172a;
+}
+
+.light .menu button:hover{
+    background:#8b5cf6;
+    color:white;
+}
+
+.light .toggle-btn{
+    background:#f1f5f9;
+    color:#0f172a;
+}
+
+
+/* ==========================
+   THEME BUTTON
+========================== */
+
+.theme-btn{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:10px;
+    background:#8b5cf6;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.theme-btn:hover{
+    transform:translateY(-2px);
+}
