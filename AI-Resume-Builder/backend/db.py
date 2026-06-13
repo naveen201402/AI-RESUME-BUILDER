@@ -1,14 +1,12 @@
+import os
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="ai-resume-builder-naveen2014sai-61d2.c.aivencloud.com",
-    user="avnadmin",
-    password="AVNS_W-NR1l8wqxcM9mcMzla",
-    database="defaultdb",
-    port=13287,
-    ssl_disabled=False
+    host=os.environ.get("MYSQLHOST", "thomas.proxy.rlwy.net"),
+    user=os.environ.get("MYSQLUSER", "root"),
+    password=os.environ.get("MYSQLPASSWORD", "QSmlQUfJVZlKxllugoWTbHSRdhOlsAye"),
+    database=os.environ.get("MYSQLDATABASE", "railway"),
+    port=int(os.environ.get("MYSQLPORT", 30518))
 )
 
 cursor = db.cursor()
-
-print("Connected Successfully!")
