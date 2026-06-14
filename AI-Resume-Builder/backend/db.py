@@ -2,10 +2,10 @@ import os
 import mysql.connector
 
 db = mysql.connector.connect(
-    host=os.environ.get("MYSQLHOST",thomas.proxy.rlwy.net),
-    user=os.environ.get("MYSQLUSER", root),
-    password=os.environ.get("MYSQLPASSWORD",8ARNMqo7uXgU5NTweEmWn46Hvewjcp1PtqfXTKDZTj29),
-    database=os.environ.get("MYSQLDATABASE", railway),
+    host=os.environ.get("MYSQLHOST"),
+    user=os.environ.get("MYSQLUSER"),
+    password=os.environ.get("MYSQLPASSWORD"),
+    database=os.environ.get("MYSQLDATABASE"),
     port=int(os.environ.get("MYSQLPORT", 3306))
 )
 
