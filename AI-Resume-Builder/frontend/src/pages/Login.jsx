@@ -36,7 +36,7 @@ function Login() {
 
             const response =
                 await axios.post(
-                    "http://127.0.0.1:5000/login",
+                    "https://backend-production-5416.up.railway.app/login",
                     {
                         email,
                         password
