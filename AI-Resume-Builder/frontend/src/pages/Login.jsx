@@ -58,8 +58,7 @@ function Login() {
                     "Login Successful"
                 );
 
-                navigate("/dashboard", { replace: true });
-                );
+                navigate("/dashboard");
 
             }
              else {
