@@ -28,7 +28,7 @@ function ATSScore() {
 
             const response =
                 await axios.get(
-                    `http://127.0.0.1:5000/ats-score/${user.id}`
+                    `https://backend-production-5416.up.railway.app/ats-score/${user.id}`
                 );
 
             if (
